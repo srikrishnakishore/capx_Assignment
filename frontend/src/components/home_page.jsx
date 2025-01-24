@@ -37,7 +37,7 @@ function HomePage() {
 
   return (
     <div className='flex flex-col lg:flex-row w-full'>
-      <div className="class="w-full h-[80vh] lg:w-2/6 bg-gradient-to-r from-sky-400 to-sky-500 p-5 text-white shadow-lg rounded-md mt-20 lg:mt-4 ml-6 lg:ml-8"">
+      <div className="w-full h-[80vh] lg:w-2/6 bg-gradient-to-r from-sky-400 to-sky-500 p-5 text-white shadow-lg rounded-md mt-20 lg:mt-4 ml-6 lg:ml-8">
         <h2 className="text-3xl font-semibold text-center mb-6">Add Stocks</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
