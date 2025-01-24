@@ -37,13 +37,13 @@ function HomePage() {
 
   return (
     <div className='flex flex-col lg:flex-row w-full'>
-      <div className="w-full h-screen lg:w-2/6 bg-gradient-to-r from-orange-400 to-orange-500 p-5 text-white shadow-lg">
+      <div className="class="w-full h-[80vh] lg:w-2/6 bg-gradient-to-r from-sky-400 to-sky-500 p-5 text-white shadow-lg rounded-md mt-20 lg:mt-4 ml-6 lg:ml-8"">
         <h2 className="text-3xl font-semibold text-center mb-6">Add Stocks</h2>
         <form onSubmit={handleSubmit} className="space-y-4">
           <div>
             <label className="text-lg font-medium">Stock Name</label>
             <input
-              className="w-full p-2 border rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-orange-500"
+              className="w-full p-2 border rounded-md text-gray-900 focus:outline-none focus:ring-2 focus:ring-sky-500"
               type="text"
               name="stockname"
               value={formdata.stockname}
