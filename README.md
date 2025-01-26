@@ -1,9 +1,5 @@
 # **Portfolio Tracker Application**
-
-This is a Portfolio Tracker application that allows users to manage and track their stock investments. Users can add stocks, view stock details, edit stock information, and delete stocks from their portfolio.
-
-## **Deployed Application**
-You can access the live version of the application here: https://capx-assignment-one.vercel.app/
+ https://capx-assignment-one.vercel.app/
 
 
 ## **Tech Stack**
